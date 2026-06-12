@@ -5,6 +5,7 @@ const app = express();
 const env = require('dotenv').config()
 const port = 5000;
 const listen = require("./config/listen")
+const database = require("./config/database")
 // const port = process.env.PORT
 
 // app.listen(port,()=>{
